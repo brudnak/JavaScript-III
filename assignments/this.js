@@ -1,4 +1,3 @@
-'use strict'
 /* The for principles of "this";
  * in your own words. explain the four principle for the "this" keyword below.
  *
@@ -12,9 +11,9 @@
 
 // Principle 1
 // code example for Window Binding
-const sayAge = function (age) {
-    console.log(this);
-    return age;
+function sayAge(age) {
+    console.log(this)
+    return age
 }
 console.log(sayAge(29))
 
